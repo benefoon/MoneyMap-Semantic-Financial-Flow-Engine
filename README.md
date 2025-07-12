@@ -1,10 +1,6 @@
 ```markdown
 # MoneyMap: Semantic Financial Flow Engine 🚀
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-
 > Advanced graph-based anomaly detection for financial transaction networks
 
 ## 🔍 Overview
@@ -18,3 +14,17 @@ MoneyMap is an intelligent financial flow analysis system that leverages graph m
 - **Temporal Analysis**: Sliding window approach for time-sensitive financial flows
 - **Visual Insights**: Built-in visualization tools for financial network exploration
 
+## 📂 Project Structure
+
+```text
+src/
+├── config/           # Configuration management
+├── detection/        # Anomaly detection algorithms
+├── embeddings/       # Graph representation learning
+├── evaluation/       # Performance metrics and evaluation
+├── graph/            # Financial graph operations
+├── ingestion/        # Data connectors and adapters
+├── preprocessing/    # Data cleaning and transformation
+├── utils/            # Common utilities
+└── visualization/    # Visualization tools
+```
