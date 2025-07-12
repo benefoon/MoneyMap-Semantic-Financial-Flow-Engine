@@ -28,3 +28,29 @@ src/
 ├── utils/            # Common utilities
 └── visualization/    # Visualization tools
 ```
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/yourusername/MoneyMap-Semantic-Financial-Flow-Engine.git
+cd MoneyMap-Semantic-Financial-Flow-Engine
+pip install -r requirements.txt
+```
+
+## 🚀 Quick Start
+
+```python
+from preprocessing.data_loader import load_transaction_data
+from graph.graph_converter import FinancialGraphBuilder
+
+# Load sample transaction data
+transactions = load_transaction_data("data/sample_transactions.csv")
+
+# Build financial graph
+graph_builder = FinancialGraphBuilder()
+financial_graph = graph_builder.build(transactions)
+
+# Analyze graph properties
+print(f"Graph contains {financial_graph.node_count} entities")
+print(f"Graph contains {financial_graph.edge_count} transactions")
+```
+
