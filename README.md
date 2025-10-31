@@ -189,19 +189,3 @@ If you use this work in academic or professional research, please cite:
 > *"In a world of flows and numbers, patterns whisper the truth. MoneyMap listens."*
 
 ```
-
----
-
-### ✅ Next Step Proposal
-If you agree, I can help you **implement the entire `src/` structure**, starting with:
-1. `src/config/config.yaml`  
-2. `src/graph/graph_converter.py`  
-3. `src/embeddings/models/node2vec.py`  
-4. `src/detection/anomaly/graph_autoencoder.py`  
-5. `src/evaluation/metrics.py`  
-6. `src/visualization/network_plot.py`  
-
-All written in **clean, senior-level Python**, modular and production-style — ready for GitHub.
-
-Vuoi che proceda con questa implementazione professionale passo dopo passo?
-```
